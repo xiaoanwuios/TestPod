@@ -7,6 +7,8 @@
 //
 
 #import "TTViewController.h"
+//#import "TTStudent.h"
+#import <TTStudent.h>
 
 @interface TTViewController ()
 
@@ -18,6 +20,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [TTStudent sayChiness];
 }
 
 - (void)didReceiveMemoryWarning
